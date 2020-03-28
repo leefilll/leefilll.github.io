@@ -1,17 +1,17 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
+title:          개발은 처음이라
+description:    "개발에 대해서 배움의 과정을 담고 있는 공간입니다. 편하게 들렀다 가세요 :)"
 baseurl:        ""
 url:            "https://leefilll.github.io"
 
 # Google Analytics
-google_analytics: UA—XXXXXXXX-X
+google_analytics: #UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         leefilll
+  url:          #https://chester.how
+  email:        poleewer@gmail.com
 
 # Build settings
 markdown:       kramdown
@@ -31,7 +31,7 @@ plugins:
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
-theme:      tale
+theme:          tale
 permalink:      /:year-:month-:day/:title
 paginate:       5
 
