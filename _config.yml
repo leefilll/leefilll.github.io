@@ -1,43 +1,41 @@
-# Setup
-title: 개발은 처음이라
-tagline: The Jekyll Butler
-url: 
-paginate: 1
-baseurl: ""
-permalink: pretty
+# Site settings
+title:          Tale
+description:    "Minimal Jekyll theme for storytellers"
+baseurl:        "/tale"
+url:            "https://chesterhow.github.io"
+
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
+
+# Author
+author:
+  name:         Chester How
+  url:          https://chester.how
+  email:        chesterhow@gmail.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
 
 # Gems
 plugins:
-  - jekyll-gist
+  - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
 
-# Optimize Jekyll
-exclude:
-  - .editorconfig
-  - .git
-  - .jekyll-cache
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.md
-  - README.md
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
 
-sass:
-  sass_dir: _sass
-  style: :compressed
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
-# Options
-
-# Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: UA-000000-0
-
-# Specify the author for blog posts
-author:
-  name: leefilll
-  url:
-  email: poleewer@gmail.com
-
-# Custom vars
-version: 3.0.0
-github: leefilll
-  repo: 
+# Disqus (Set to your disqus id)
+disqus:         jekyll-tale
