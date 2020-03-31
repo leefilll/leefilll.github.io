@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "About"
-author: "Chester"
+author: "Leefilll"
 permalink: /about/
 ---
 
@@ -11,5 +11,3 @@ permalink: /about/
 근데 정작 잘하는 것은 없는듯
 
 노력하자!
-
-

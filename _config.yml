@@ -1,27 +1,27 @@
 # Site settings
-title:          개발은 처음이라
-description:    "개발에 대해서 배움의 과정을 담고 있는 공간입니다. 편하게 들렀다 가세요 :)"
-baseurl:        ""
-url:            "https://leefilll.github.io"
+title: 개발은 처음이라
+description: "개발에 대해서 배움의 과정을 담고 있는 공간입니다. 편하게 들렀다 가세요 :)"
+baseurl: ""
+url: "https://leefilll.github.io"
 
 # Google Analytics
-google_analytics: #UA—XXXXXXXX-X
+google_analytics: UA-162277934-1
 
 # Author
 author:
-  name:         leefilll
-  url:          #https://chester.how
-  email:        poleewer@gmail.com
+  name: leefilll
+  url:
+  email: poleewer@gmail.com
 
 # Build settings
-markdown:       kramdown
+markdown: kramdown
 include:
   - _pages
 
 # Assets
 sass:
-  sass_dir:     _sass
-  style:        compressed
+  sass_dir: _sass
+  style: compressed
 
 # Gems
 plugins:
@@ -31,12 +31,12 @@ plugins:
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
-theme:          tale
-permalink:      /:year-:month-:day/:title
-paginate:       5
+theme: tale
+permalink: /:year-:month-:day/:title
+paginate: 5
 
 # Excludes
-exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+exclude: [Gemfile, Gemfile.lock, tale.gemspec]
 
 # Disqus (Set to your disqus id)
-disqus:         #jekyll-tale
+disqus: #jekyll-tale
