@@ -1,17 +1,28 @@
-{% comment %} <script>
-  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-  ga('create', '{{ site.google_analytics }}', 'auto');
-  ga('send', 'pageview');
+{% comment %}
+<script>
+  window.ga =
+    window.ga ||
+    function() {
+      (ga.q = ga.q || []).push(arguments);
+    };
+  ga.l = +new Date();
+  ga("create", "{{ site.google_analytics }}", "auto");
+  ga("send", "pageview");
 </script>
-<script async src='https://www.google-analytics.com/analytics.js'></script> {% endcomment %}
-
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+{% endcomment %}
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162277934-1"></script>
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-162277934-1"
+></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
 
-  gtag('config', 'UA-162277934-1');
+  gtag("config", "UA-162277934-1");
 </script>

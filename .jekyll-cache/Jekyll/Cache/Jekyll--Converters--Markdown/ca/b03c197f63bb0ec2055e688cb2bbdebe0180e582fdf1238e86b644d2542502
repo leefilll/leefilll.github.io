@@ -1,0 +1,39 @@
+I"�<h1 id="vim-단축키hotkeys-정리">Vim 단축키(Hotkeys) 정리</h1>
+
+<p>나는 맥북을 사용중이다. 유닉스 기반의 맥북을 사용하여 개발을 공부하다보면, 터미널을 이용해서 작업을 하는 경우가 더러 있다.
+그럴때마다 <code class="highlighter-rouge">vi(유닉스의 기본 편집기)</code>를 개량한 <code class="highlighter-rouge">Vim에디터</code>를 자주 사용하게 된다. 물론 코드를 작성할 때는 언어나 도메인에 따라서 자동화 및 컴파일이 기본 탑재되어 있는 <code class="highlighter-rouge">IDE(Integrated Development Environment, 통합개발환경)</code>을 사용하지만, 간단한 문서를 작성하거나 할 때는 <code class="highlighter-rouge">Vim</code>을 많이 사용한다. (물론 <code class="highlighter-rouge">Nano</code>를 이용하면 더 쉽다.) 하지만 완전 기본적인 기능을 제외하고는 거의 사용을 하지 않았어서 이번 기회에 공부해보려 한다. 어디서 봤는데, <code class="highlighter-rouge">Vim</code>을 숙달하게 되면 마우스를 사용하지 않고도 더 쉽고 빠르게 작업이 가능하다고 한다.</p>
+
+<h2 id="vim-단축키">Vim 단축키</h2>
+
+<h3 id="커서-이동">커서 이동</h3>
+
+<p><code class="highlighter-rouge">k</code> 위로 이동</p>
+
+<p><code class="highlighter-rouge">h / l</code> 좌우 이동</p>
+
+<p><code class="highlighter-rouge">j</code> 아래로 이동
+<br /></p>
+
+<h3 id="삽입모드로-변경">삽입모드로 변경</h3>
+
+<p><code class="highlighter-rouge">i</code> 현재 커서 위치에 삽입<br />
+<code class="highlighter-rouge">I</code> 현재 줄 가장 앞에 삽입<br />
+<code class="highlighter-rouge">a</code> 현재 커서 다음 칸에 삽입</p>
+
+<p><code class="highlighter-rouge">A</code> 현재 줄 가장 뒤에 삽입</p>
+
+<p><code class="highlighter-rouge">o</code> 현재 커서 아랫줄에 삽입</p>
+
+<p><code class="highlighter-rouge">O</code> 현재 커서 윗줄에 삽입</p>
+
+<hr />
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://ko.wikipedia.org/wiki/Vi">vi</a></li>
+  <li><a href="https://ko.wikipedia.org/wiki/Vim">vim</a></li>
+  <li><a href="https://ko.wikipedia.org/wiki/GNU_%EB%82%98%EB%85%B8">Nano</a></li>
+</ul>
+
+:ET
