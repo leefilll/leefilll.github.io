@@ -5,7 +5,7 @@ author: "Leefilll"
 permalink: /about/
 ---
 
-<img src="../assets/memade.jpg" width="30%" style="border-radius: 50%">
+<img src="/assets/memade.jpg" width="30%" style="border-radius: 50%">
 
 <br/>
 

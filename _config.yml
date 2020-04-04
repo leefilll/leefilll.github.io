@@ -3,6 +3,7 @@ title: 개발은 처음이라
 description: "개발에 대해서 배움의 과정을 담고 있는 공간입니다. 편하게 들렀다 가세요 :)"
 baseurl: ""
 url: "https://leefilll.github.io"
+logo: "/assets/memade.jpg"
 
 # Google Analytics
 google_analytics: UA-162277934-1
