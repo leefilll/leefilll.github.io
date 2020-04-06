@@ -5,9 +5,7 @@ author: "Leefilll"
 permalink: /about/
 ---
 
-<img src="/assets/memade.jpg" width="30%" style="border-radius: 50%">
-
-<br/>
+<img src="https://user-images.githubusercontent.com/38246878/78570268-b8731f00-785f-11ea-9787-f2af696a5567.JPG" width="30%" style="border-radius: 50%">
 
 <center>
 <h1><strong>leefilll</strong></h1>
@@ -22,5 +20,5 @@ permalink: /about/
 </center>
 
 <center>
-노력하자!
+항상 노력하는 사람이 되자!
 </center>

@@ -1,5 +1,9 @@
 # Created by https://www.gitignore.io/api/ruby,macos,jekyll
 
+
+### Temporary posts ###
+_temps
+
 ### Jekyll ###
 _site/
 .sass-cache/
