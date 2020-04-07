@@ -50,8 +50,7 @@ author: "leefilll"
 // SceneDelegate.swift
 func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
   guard let windowScene = (scene as? UIWindowScene) else { return }
-  window = UIWindow(frame: UIScreen.main.bounds)
-  window?.windowScene = windowScene
+  window = UIWindow(windowScene: windowScene)
   window?.rootViewController = ViewController() // RootViewController를 연결
   window?.makeKeyAndVisible()
 }
