@@ -15,8 +15,6 @@ tags: [Swift, iOS, Xcode]
 
 그런데 `Storyboard`없이 Xcode에서 개발을 하기 위해선 몇 가지 작업을 해주어야 한다. 생각보다 더 간단하다.
 
-<br/>
-
 # Xcode 설정 ⚙️
 
 ## 1. 프로젝트를 생성한다.
@@ -25,23 +23,17 @@ tags: [Swift, iOS, Xcode]
 
 따로 해줄 건 없고, 그냥 생성하자.
 
-<br/>
-
 ## 2. 프로젝트 이름과 타겟을 확인하고 General 탭에서 Main Interface를 삭제한다.
 
 ![image2](https://user-images.githubusercontent.com/38246878/78572014-e35e7280-7861-11ea-9014-676ceebeaa10.png)
 
 위의 스크린샷 3번에 해당하 `Main Interface` 항목에서 기본으로 설정되어 있는 `Main`을 삭제한다. 그냥 지우고 리턴키 누르면 된다. 물론, `Main.storyboard` 파일은 삭제해도 상관 없다.
 
-<br/>
-
 ## 3. info.plist에서 Storyboard Name 키를 삭제한다.
 
 ![image3](https://user-images.githubusercontent.com/38246878/78572406-6253ab00-7862-11ea-8e6a-bb2df831c92d.png)
 
 `Application Scene Manifest` 키 부분에 마우스를 갖다 대면 `+` 버튼이 나오는데, 계속 확장해서 위와 같이 펼친다. 그리고 `Storyboard Name` 키 부분을 삭제한다. `-` 버튼으로 삭제하면 된다.
-
-<br/>
 
 ## 4. SceneDelegate.swift에서 다음과 같이 코드를 추가한다.
 
@@ -61,13 +53,9 @@ func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options conn
 
 `window?.rootViewController`와 원하는 ViewController(TabBarController, NavigationController, ViewController, 등)를 연결시켜주면 된다.
 
-<br/>
-
 # 마치며 💬
 
 이제 머지할 때마다 충돌할 걱정없이 코드로 작업을 시작하면 된다. 또한 `@IBOutlet` 혹은 `@IBAction` 을 이용하기 위해 창을 두 개씩 띄울 필요도 없다. 가끔은 `ViewLifeCycle` 때문에 몇 가지 문제가 발생하기는 하지만, 이것에 대해서는 다음 포스팅에...
-
-<br/>
 
 ---
 

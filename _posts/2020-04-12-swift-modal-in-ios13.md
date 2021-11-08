@@ -9,8 +9,6 @@ tags: [Swift, iOS]
 
 2019년에 `WWDC`에서 발표된 iOS 13에서는 꽤 많은 것들이 바뀌었다. iPadOS가 따로 출시되었기도 하고, 다크 모드의 도입으로 모든 애플리케이션에 획기적인 UI의 변화를 이끌었기 때문이다. 이 외에도 다양한 것들이 바뀌긴 하였지만, iOS 개발을 공부하면서 가장 크게 느껴진 것이 있다. 바로 `모달(Modal)`방식이다.
 
-<br/>
-
 # iOS 11과 iOS 13의 Modal 📱
 
 기존의 모달 방식은 기본적으로 `full screen`을 덮는 방식이다. iOS 13 이전의 모달과 iOS 13의 모달 방식을 비교하기 위해서 **iPhone 8 - iOS 11** 버전과 **iPhone 11 - iOS 13** 을 비교하였다.
@@ -43,9 +41,7 @@ tags: [Swift, iOS]
 
 > _여기서는 `modalPresentationStyle`은 지정하지 않은 기본값으로 진행하였다._
 
-<br/>
-
-## iPhon 8 - iOS 11
+### iPhon 8 - iOS 11
 
 우선 iOS 11 에서 모달을 띄우면 다음과 같이 출력된다.
 
@@ -71,9 +67,7 @@ ModalViewController viewDidDisappear(_:)
 
 > _물론, `modalPresentationStyle`을 `.overCurrentContext`나 `.overFullScreen`으로 하게 되면 `ViewController`를 뷰 계층에서 제거하지 않고 모달을 띄울 수는 있다._
 
-<br/>
-
-## iPhone 11 - iOS 13
+### iPhone 11 - iOS 13
 
 iOS 13에서 모달을 띄우면 마치 새로운 화면이 이전의 화면을 밀고 나오는 듯한 화면이 연출된다.
 
@@ -105,8 +99,6 @@ ModalViewController viewDidDisappear(_:)
 
 > _iOS 13에서의 기본 `modalPresentationStyle`은 Horizontal Size Class가 compact(아이폰 세로 모드)일 때, `.automatic`이 기본값이다. 이 값은 대부분의 경우에는 `.pageSheet`으로 모달을 띄우고, 뷰 컨트롤러에 따라서 다른 스타일을 적용하는 값이다. 참고로 iOS 11에서는 기본 `modalPresentationStyle`은 `.fullScreen`이다. 자세한 내용은 레퍼런스를 참고._
 
-<br/>
-
 # Interactive Dismissal 👨‍💻
 
 `ViewLifeCycle`에 대응하는 것은 그 사이클의 작동 방식만 알게 되면 큰 문제가 없다. 버전별로 자신의 입맛에 맞게 대응할 수 있으니까. 그런데 문제는 iOS 13의 기본 모달 방식에 있다. 이 방식에서는 애플에서 말하는 Interactive Dismiss, 즉 제스쳐(손가락으로 뷰를 쓸어 내리는 것)를 통해서 모달을 dismiss할 수 있는데, 이렇게 dismiss하게 될 때는 `UIAdaptivePresentationControllerDelegate` 프로토콜의 델리게이트 메소드를 이용해야 한다.
@@ -120,8 +112,6 @@ if #available(iOS 13.0, *) {
   self.isModalInPresentation = true
 }
 ```
-
-<br/>
 
 # UIAdaptivePresentationControllerDelegate 📜
 
@@ -139,13 +129,9 @@ if #available(iOS 13.0, *) {
 
 > _애플에서 제공하는 튜토리얼은 [여기](https://developer.apple.com/documentation/uikit/view_controllers/disabling_pulling_down_a_sheet)서 참고할 수 있다_
 
-<br/>
-
 # 마치며 💬
 
 계속 iOS 앱 개발에 관해서 공부만 하다 보니까 포스팅도 Swift가 많다. 물론 나는 개인적으로 Swift를 좋아하기도 한다. 근데 문제는 계속 해서 SwiftUI나 이렇게 iOS가 업데이트 되면서 공부할게 너무나도 많다는 것이다... 천천히 하나씩 내가 궁금하거나 공부해야 겠다는 생각이 들면 포스팅 꾸준히 해야겠다...!
-
-<br/>
 
 ---
 

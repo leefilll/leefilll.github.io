@@ -111,8 +111,8 @@ contact:
 #-------------------------------
 # Comment Section (Disqus)
 
-disqus-identifier: anvodstudio-demo # add your shortname for Disqus Comment. For example anvodstudio-demo
+disqus-identifier: disqus_Fqe6yQ2K0j # add your shortname for Disqus Comment. For example anvodstudio-demo
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
+google-analytics: UA-162277934-1
