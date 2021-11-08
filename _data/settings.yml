@@ -1,0 +1,118 @@
+---
+#-------------------------------
+# Site Settings
+title: WhatIFill
+logo: /images/fill_logo.png
+author: leefill
+description: UI/UX를 바라보는 개발자의 시선을 담습니다.
+
+#-------------------------------
+# Menu Settings
+menu__settings:
+  menu__items:
+    - title: "Home"
+      url: "/"
+    - title: "Blog"
+      url: "/blog/"
+    - title: "About"
+      url: "/about/"
+    - title: "Contact"
+      url: "/contact/"
+
+#-------------------------------
+# Hero Settings
+hero:
+  hero__title: 디자인을 바라보는 개발자의 시선
+  hero__description: 광고를 전공하고, UI와 UX에 관심이 많은 개발자입니다.<br/>지극히 주관적인 시선으로 좋아하는 서비스를 리뷰하기도 하고, 각종 글을 씁니다.<br/>피드백과 문의는 언제나 환영합니다!
+
+#-------------------------------
+# Portfolio Settings
+portfolio:
+  portfolio__title: Projects
+  portfolio__gallery:
+    - image: /images/project-01.png
+      title: 덤벨
+      description: 간편하고 아름다운 스마트 운동 일지<br/>Aavailable on <a href="https://apps.apple.com/kr/app/dumbbell-on-the-gym-workout/id1569130711?l=en">Appstore</a>
+
+    - image: /images/project-02.png
+      title: 거꾸로레시피
+      description: 재료 기반 레시피 큐레이션 서비스<br/>Aavailable on <a href="https://apps.apple.com/kr/app/%EA%B1%B0%EA%BE%B8%EB%A1%9C%EB%A0%88%EC%8B%9C%ED%94%BC/id1452760217?l=en">Appstore</a>
+
+    - image: /images/project-03.png
+      title: 야드
+      description: 위치정보를 활용한 여행지 공간 공유 커뮤니티<br/>Aavailable on <a href="https://apps.apple.com/kr/app/%EC%95%BC%EB%93%9C-%EC%97%AC%ED%96%89%EC%A7%80-%EA%B3%B5%EA%B0%84-%EC%A0%95%EB%B3%B4-%EA%B3%B5%EC%9C%A0-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/id1592276974?l=en">Appstore</a>
+
+#-------------------------------
+# Subscribe Settings
+# mailchimp:
+#   mailchimp__title: Get updates and digital art inspiration # Add your Title
+#   mailchimp__identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+#   mailchimp__button__text: Subscribe # Add your button text.
+#   mailchimp__bg__color: "#f2eef8" # To change the color of the figure, add a hexadecimal color code (HEX). For example - "#f2eef8" (You can generate any color here - https://htmlcolorcodes.com/).
+
+#-------------------------------
+# Footer Settings
+social:
+  # - {
+  #     icon: "ion-logo-twitter",
+  #     color: "#55acee",
+  #     label: Twitter,
+  #     link: "https://twitter.com",
+  #   }
+  # - {
+  #     icon: "ion-logo-facebook",
+  #     color: "#3b5999",
+  #     label: Facebook,
+  #     link: "https://facebook.com",
+  #   }
+  # - {
+  #     icon: "ion-logo-pinterest",
+  #     color: "#bd081c",
+  #     label: Pinterest,
+  #     link: "https://pinterest.com",
+  #   }
+  # - {
+  #     icon: "ion-logo-dribbble",
+  #     color: "#ea4c89",
+  #     label: Dribbble,
+  #     link: "https://dribbble.com",
+  #   }
+  # - {
+  #     icon: "ion-logo-instagram",
+  #     color: "#e4405f",
+  #     label: Instagram,
+  #     link: "https://instagram.com",
+  #   }
+  # - {
+  #     icon: "ion ion-logo-vimeo",
+  #     color: "#1393cd",
+  #     label: Vimeo,
+  #     link: "https://vimeo.com",
+  #   }
+  - {
+      icon: "ion ion-logo-github",
+      # color: "#1393cd",
+      label: Github,
+      link: "https://github.com/leefilll",
+    }
+
+# Example of adding a new link to the footer section - {icon: "ion-logo-github", color: "#24292e, label: Github, link: "https://github.com"}
+# Other icons can be found at https://ionicons.com/v4/
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: f/xjvjqrog # Add your email for contact form
+  description: 궁금한 사항이나 피드백은 언제든 환영합니다.<br/>아래 양식에 맞추어 작성하여 보내주시면 빠른 시일 내에 회신하겠습니다.
+
+# NOTE
+# Clancy comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: anvodstudio-demo # add your shortname for Disqus Comment. For example anvodstudio-demo
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.

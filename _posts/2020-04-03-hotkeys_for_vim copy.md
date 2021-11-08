@@ -1,7 +1,10 @@
 ---
 layout: post
-title: "Vim 단축키 정리   (Hotkeys for Vim)"
-author: "leefilll"
+title: Vim 단축키 정리 (Hotkeys for Vim)
+date: 2020-04-03
+image: "/images/01.jpg"
+author: leefilll
+tags: [vim, 단축키]
 ---
 
 # Vim 단축키(Hotkeys) 정리 ⌨️

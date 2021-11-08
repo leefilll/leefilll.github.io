@@ -1,12 +1,11 @@
 ---
 layout: post
 title: "[Swift] iOS 13에서 Modal의 ViewLifeCycle"
-author: "leefilll"
+date: 2020-04-12
+image: "/images/05.jpg"
+author: leefilll
+tags: [Swift, iOS]
 ---
-
-<img width="400" alt="Screen Shots" src="https://user-images.githubusercontent.com/38246878/79060926-83365900-7cc5-11ea-8bed-dde5ef8d91bc.png">
-
-<!-- ![iOS13_logo](https://user-images.githubusercontent.com/38246878/79060926-83365900-7cc5-11ea-8bed-dde5ef8d91bc.png) -->
 
 2019년에 `WWDC`에서 발표된 iOS 13에서는 꽤 많은 것들이 바뀌었다. iPadOS가 따로 출시되었기도 하고, 다크 모드의 도입으로 모든 애플리케이션에 획기적인 UI의 변화를 이끌었기 때문이다. 이 외에도 다양한 것들이 바뀌긴 하였지만, iOS 개발을 공부하면서 가장 크게 느껴진 것이 있다. 바로 `모달(Modal)`방식이다.
 

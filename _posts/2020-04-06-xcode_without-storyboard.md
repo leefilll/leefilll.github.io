@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "[Swift] Xcode에서 Storyboard 없이 iOS 앱 개발하기"
-author: "leefilll"
+date: 2020-04-10
+image: "/images/03.jpg"
+author: leefilll
+tags: [Swift, iOS, Xcode]
 ---
 
 # Storyboard 🖥

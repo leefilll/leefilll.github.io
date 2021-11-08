@@ -1,0 +1,60 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+image: "/images/contact.jpg"
+---
+
+<div class="form-box">
+  <div class="contact-head">
+    <p class="page-description">{{site.data.settings.contact.description}}</p>
+  </div>
+  <form
+    class="form"
+    action="{% if site.data.settings.contact.email %}https://formspree.io/{{site.data.settings.contact.email}}{% else %}#{% endif %}"
+    method="POST"
+  >
+    <div class="form__group">
+      <label class="form__label screen-reader-text" for="form-name"
+        >Your Name</label
+      >
+      <input
+        class="form__input"
+        id="form-name"
+        type="text"
+        name="이름"
+        placeholder="이름"
+        required
+      />
+    </div>
+    <div class="form__group">
+      <label class="form__label screen-reader-text" for="form-email"
+        >Your Email</label
+      >
+      <input
+        class="form__input"
+        id="form-email"
+        type="email"
+        name="회신 받을 이메일 주소"
+        placeholder="회신 받을 이메일 주소"
+        required
+      />
+    </div>
+    <div class="form__group">
+      <label class="form__label screen-reader-text" for="form-text"
+        >Your Message</label
+      >
+      <textarea
+        class="form__input"
+        id="form-text"
+        name="내용"
+        rows="10"
+        placeholder="내용"
+        required
+      ></textarea>
+    </div>
+    <div class="form__group">
+      <button class="button" type="submit">보내기</button>
+    </div>
+  </form>
+</div>

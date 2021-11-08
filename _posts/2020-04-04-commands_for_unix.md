@@ -1,7 +1,10 @@
 ---
 layout: post
-title: "Unix 명령어 기초 지식 (Basic commands for Unix)"
-author: "leefilll"
+title: Unix 명령어 기초 지식 (Basic commands for Unix)
+date: 2020-04-04
+image: "/images/02.jpg"
+author: leefilll
+tags: [Unix, 명령어, 기초]
 ---
 
 # Unix 📺

@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "[Swift] 프로토콜 지향 프로그래밍(Protocol-Oriented Programming)"
-author: "leefilll"
+date: 2020-04-10
+image: "/images/04.png"
+author: leefilll
+tags: [Swift, iOS, POP]
 ---
 
 애플은 2015년 `WWDC(애플에서 매년 개최하는 개발자 컨퍼런스)`에서 Swift 언어가 `프로토콜 지향 언어(Protocol-Oriented Language)`라고 발표하였다. 흔히 말하는 `객체 지향 언어(Object-Oriented Language)`의 부족한 점을 보완한 것이 `프로토콜 지향 언어`이다. 오늘의 포스팅은 프로토콜을 활용한 Swift 프로토콜 중심 프로그래밍을 살펴보려고 한다.

@@ -1,129 +1,66 @@
-# Tale
+# Clancy is an elegant portfolio theme for Jekyll
 
-[![Gem Version](https://badge.fury.io/rb/tale.svg)](https://badge.fury.io/rb/tale)
+Clancy is an elegant portfolio theme for Jekyll designed for photographers, designers, illustrators, artists, creatives, etc. This theme will help you professionally introduce yourself to your visitors and showcase your work in a minimalistic style. This super clean and fully optimized theme can be easily customized to suit your needs.
 
-Tale is a minimal Jekyll theme curated for storytellers. Checkout the demo [here](https://chesterhow.github.io/tale/).
+* * *
 
-![Tale screenshot](http://i.imgur.com/pXZrtmo.png)
+### Demo
 
-## Features
-- Easy installation
-- Compatible with GitHub Pages
-- Responsive design (looks just as good on mobile)
-- Syntax highlighting, with the help of Pygments
-- Markdown and HTML text formatting
-- Pagination of posts
-- [Disqus comments (can be enabled if needed)](#enabling-comments)
+Check the theme in action [Live Demo](https://clancy.netlify.app/) |
+[Artem Sheludko](https://jekyllthemes.io/developers/artem-sheludko)
 
-## Installation
-There are 3 ways to install this theme
+* * *
 
-1. Install it as a Ruby Gem (for self-hosted sites)
-2. Install it with the `jekyll-remote-theme` plugin (for GitHub Pages hosted sites)
-3. Fork the project directly
+### Theme features
 
-### Ruby Gem method
-1. Add this line to your `Gemfile`:
+- Works with GitHub Pages (host it for free)
+- Dark and light mode user can select themself
+- 100% responsive Design
+- Clean and Modern Code
+- Optimized for mobile devices
+- Super fast performance ⚡⚡⚡
+- No jQuery, only vanilla JS
+- Social sharing buttons
+- Scroll to top button
+- Syntax highlighting (supports the Jekyll syntax highlighter)
+- Compatible with modern browsers
+- Medium style image zoom
+- Image Lazy loading
+- Image gallery
+- Tags Page
+- Custom logo support
+- Supports contact form (Formspree)
+- Supports MailChimp newsletter
+- Supports Disqus comments
+- Supports Google Analytics
+- Ionicons icons
+- Free Google Fonts
+- Free Updates & Support
 
-```ruby
-gem "tale"
-```
+* * *
 
-2. Install the theme's gems and dependencies:
+### Installation
 
-```bash
-$ bundle
-```
+#### Installing Ruby & Jekyll
 
-3. In `_config.yml` add these lines:
+If this is your first time using Jekyll, please follow the [Jekyll docs](https://jekyllrb.com/docs/installation/) and make sure your local environment (including Ruby) is setup correctly.
 
-```yaml
-theme:      tale
+* * *
 
-permalink:  /:year-:month-:day/:title
-paginate:   5
-```
+### Deployment
 
-Remove any other `theme:` lines.
+To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
 
-4. Rename `index.md` to `index.html`. Without this, the `jekyll-paginate` gem will not work.
+I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
 
-5. In `about.md`, change the `layout:` field to `post`:
+* * *
 
-```Markdown
-layout: post
-```
+### Documentation
 
-### GitHub Pages method
-1. Add these 2 lines in to your `Gemfile`:
+Before using the Clancy theme, please read the attached documentation.
 
-```ruby
-gem "jekyll-remote-theme"
-gem "jekyll-paginate"
-```
+* * *
 
-2. Install the newly added gems:
+### Support
 
-```bash
-$ bundle
-```
-
-3. In `_config.yml` add these lines:
-
-```yaml
-remote_theme: chesterhow/tale
-
-permalink:    /:year-:month-:day/:title
-paginate:     5
-
-plugins:
-  - jekyll-paginate
-  - jekyll-remote-theme
-```
-
-Remove any other `theme:` or `remote_theme:` lines.
-
-4. Rename `index.md` to `index.html`. Without this, the `jekyll-paginate` gem will not work.
-
-5. In `about.md`, change the `layout:` field to `post`:
-
-```Markdown
-layout: post
-```
-
-### Fork method
-1. Fork this repository
-
-2. Delete the unnecessary files/folders: `CODE_OF_CONDUCT.md`, `LICENSE`, `README.md`, `tale.gemspec`
-
-3. Delete the `baseurl` line in `_config.yml`:
-
-```yaml
-baseurl:  "/tale"   # delete this line
-```
-
-## Usage
-Once you've installed the theme, you're ready to work on your Jekyll site. To start off, I would recommend updating `_config.yml` with your site's details.
-
-To build and serve your site, run:
-
-```bash
-$ bundle exec jekyll serve
-```
-
-And you're all set! Head over to http://127.0.0.1:4000/ to see your site in action.
-
-### Enabling Comments
-Comments are disabled by default. To enable them, look for the following line in `_config.yml` and change `jekyll-tale` to your site's Disqus id.
-
-```yml
-disqus: jekyll-tale
-```
-
-Next, add `comments: true` to the YAML front matter of the posts which you would like to enable comments for.
-
-## Contributing
-Found a bug or have a suggestion? Feel free to create an issue or make a pull request!
-
-## License
-See [LICENSE](https://github.com/chesterhow/tale/blob/master/LICENSE)
+<p>If you have any questions, please feel free to contact me by mail <a href="mailto:hi.artemsheludko@gmail.com">Contact</a><p>

@@ -1,43 +1,34 @@
-# Site settings
-title: 개발은 처음이라
-description: "개발에 대해서 배움의 과정을 담고 있는 공간입니다. 편하게 들렀다 가세요 :)"
-baseurl: ""
-url: "https://leefilll.github.io"
-logo: "/assets/memade.jpg"
+---
+#-------------------------------
+# General Site Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://blog.whatifill.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Google Analytics
-google_analytics: UA-162277934-1
-
-# Author
-author:
-  name: leefilll
-  url:
-  email: poleewer@gmail.com
-
-# Build settings
+#-------------------------------
+# Build Settings
 markdown: kramdown
+permalink: /:title
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 9
+paginate_path: "/blog/page/:num"
+
+# Pages Path
+defaults:
+  - scope:
+      path: "_pages"
+    values:
+      permalink: /:basename:output_ext
+  - scope:
+      path: "_posts"
+    values:
+      permalink: /blog/:slug
+
 include:
   - _pages
 
-# Assets
 sass:
   sass_dir: _sass
   style: compressed
-
-# Gems
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-  # - jemoji #Uncomment this to allow emoji in your post
-
-# Permalinks
-theme: tale
-permalink: /:year-:month-:day/:title
-paginate: 5
-
-# Excludes
-exclude: [Gemfile, Gemfile.lock, tale.gemspec]
-
-# Disqus (Set to your disqus id)
-disqus: #jekyll-tale
