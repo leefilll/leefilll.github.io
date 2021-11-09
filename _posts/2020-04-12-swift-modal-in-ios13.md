@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Swift] iOS 13에서 Modal의 ViewLifeCycle"
+title: "iOS 13에서 Modal의 ViewLifeCycle"
 date: 2020-04-12
 image: "/images/05.jpg"
 author: leefilll

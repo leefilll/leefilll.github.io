@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[UI] Pinterest UI/UX 살펴보기"
+title: "Pinterest UI/UX 살펴보기"
 date: 2021-11-08
 image: "/images/06.jpg"
 author: leefilll

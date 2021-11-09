@@ -1,8 +1,12 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
 body {
+  word-wrap: break-word;
+  position: relative;
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
@@ -79,7 +83,6 @@ blockquote {
     font-weight: 700;
     font-style: normal;
     color: var(--heading-font-color);
-
   }
 
   @media only screen and (max-width: $mobile) {
@@ -108,7 +111,7 @@ img,
 img,
 .lightense-wrap,
 .gallery {
-  &+em {
+  & + em {
     display: block;
     margin-top: 20px;
     font-size: 12px;
@@ -117,7 +120,7 @@ img,
     font-weight: normal;
     text-align: center;
     color: var(--heading-font-color);
-  
+
     a {
       font-weight: 500;
       border-bottom: 1px solid var(--border-color);
@@ -128,7 +131,7 @@ img,
         border-color: var(--link-color-hover);
       }
     }
-  
+
     @media only screen and (max-width: $mobile) {
       margin-top: 12px;
     }
@@ -181,7 +184,7 @@ table th {
 
 table tr {
   background-color: var(--tr-color);
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   &:nth-child(even) {
     background-color: transparent;
   }
@@ -203,7 +206,7 @@ table td {
   border: none;
   outline: none;
   cursor: pointer;
-  transition: all .25s;
+  transition: all 0.25s;
   color: var(--heading-font-color);
   background: var(--background-alt-color);
 

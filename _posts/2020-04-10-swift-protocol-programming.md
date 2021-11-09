@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Swift] 프로토콜 지향 프로그래밍(Protocol-Oriented Programming)"
+title: "프로토콜 지향 프로그래밍(Protocol-Oriented Programming)"
 date: 2020-04-10
 image: "/images/04.png"
 author: leefilll
