@@ -62,6 +62,20 @@ h6 {
   font-size: $font-size-h6;
 }
 
+article {
+  h1 {
+    margin-top: $top-spacing-h1;
+  }
+
+  h2 {
+    margin-top: $top-spacing-h2;
+  }
+
+  h3 {
+    margin-top: $top-spacing-h3;
+  }
+}
+
 blockquote {
   position: relative;
   margin: 40px 0;
